@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact | Loaf & Crust</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h2>Loaf & Crust</h2>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button class="btn">Send Message</button>
+    </form>
+</div>
+
+<footer>
+    © 2026 Loaf & Crust Bakery
+</footer>
+
+</body>
+</html>
