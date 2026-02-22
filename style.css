@@ -92,7 +92,7 @@ body {
 }
 
 .product-card {
-    background: #875b08;
+    background: white;
     margin-top: 10px;
     padding: 20px;
     border-radius: 10px;
@@ -135,6 +135,7 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 
 
