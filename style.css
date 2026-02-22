@@ -78,8 +78,8 @@ body {
     text-align: center;
 }
 .subsection h1{
-    font-size: 6rem;
-    color: #2E2C23;
+    font-size: 4rem;
+    color: #38280d;
 }
 
 .products {
@@ -127,5 +127,6 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 
