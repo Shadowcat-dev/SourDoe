@@ -51,7 +51,6 @@ body {
 .hero p {
     margin: 20px 0;
     font-size: 1.2rem;
-    margin-bottom: 1em; 
 }
 
 .btn {
@@ -106,6 +105,11 @@ body {
     margin: 15px 0 15px;
 }
 
+.product-card p {
+    margin: 15px 0 15px;
+    margin-bottom: 1em; 
+}
+
 
 /* FORM */
 form {
@@ -128,6 +132,7 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 
 
