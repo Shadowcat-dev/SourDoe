@@ -86,6 +86,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
+    align-items: start; /* This tells cards: "Only be as tall as your content" */
     margin-top: 40px;
 }
 
@@ -93,7 +94,7 @@ body {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
 
 .product-card img {
@@ -132,6 +133,7 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 
 
