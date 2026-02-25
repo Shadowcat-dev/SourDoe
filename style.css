@@ -35,7 +35,7 @@ body {
 
 /* HERO */
 .hero {
-    background: url('https://images.unsplash.com/photo-1608198093002-ad4e005484ec') no-repeat center/cover;
+    background: url('https://raw.githubusercontent.com/Shadowcat-dev/SourDoe/refs/heads/main/focaccia%20winner%20pic.jpg') no-repeat center/cover;
     height: 70vh;
     display: flex;
     align-items: center;
@@ -135,6 +135,7 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 
 
