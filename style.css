@@ -100,7 +100,9 @@ body {
 }
 
 .product-card img {
-    
+    max-width: 100%;
+    /* This keeps the image from stretching vertically */
+    height: auto;
     border-radius: 10px;
 }
 
@@ -135,6 +137,7 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 
 
