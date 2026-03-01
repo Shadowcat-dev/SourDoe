@@ -69,10 +69,8 @@ body {
 
 .textbar {
     background-color: #3E2C23;
-    color: white;
     padding: 15px 40px;
     display: flex;
-    text-align: center;
 }
 
 
@@ -146,6 +144,7 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 
 
