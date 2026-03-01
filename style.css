@@ -72,11 +72,6 @@ body {
     color: white;
     padding: 15px 40px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.textbar h2 {
     text-align: center;
 }
 
@@ -151,6 +146,7 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 
 
