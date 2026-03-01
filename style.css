@@ -76,6 +76,10 @@ body {
     align-items: center;
 }
 
+.textbar h2 {
+    text-align: center;
+}
+
 
 /* PRODUCTS */
 .section {
@@ -147,6 +151,7 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 
 
