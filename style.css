@@ -67,6 +67,16 @@ body {
     background-color: #D4A373;
 }
 
+.textbar {
+    background-color: #3E2C23;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 /* PRODUCTS */
 .section {
     padding: 40px 40px;
@@ -137,6 +147,7 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 
 
