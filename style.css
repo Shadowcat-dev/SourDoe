@@ -193,11 +193,53 @@ footer {
 }
 
 }
+   
+/* --- RESPONSIVE ADJUSTMENTS --- */
 @media (max-width: 600px) {
-    .product-card img {
+     .product-card img {
         height: 250px;    /* Use a shorter height for narrow mobile cards */
     }
+    /* 1. Fix the Navbar */
+    .navbar {
+        padding: 15px 20px; /* Reduce side padding so links don't squash */
+        flex-direction: column; /* Stack logo above links if it gets too tight */
+        gap: 10px;
+    }
+    
+    .navbar a {
+        margin-left: 10px; /* Bring links closer together */
+        font-size: 0.9rem;  /* Slightly smaller text */
+    }
+
+    /* 2. Fix the Hero & Headers */
+    .hero h1 {
+        font-size: 2rem; /* Was 3rem - too big for mobile */
+    }
+
+    .subsection h1 {
+        font-size: 2.2rem; /* Was 4rem - this was likely the "huge" looking text */
+    }
+
+    /* 3. Adjust Section Spacing */
+    .section, .subsection {
+        padding: 30px 20px; /* Give more horizontal room to your content */
+    }
+
+    /* 4. The Image Fix (Keeping your previous fix) */
+    .product-card img {
+        height: 250px;
+    }
+
+    /* 5. Dropdown Adjustment */
+    .dropdown-content {
+        left: 0; /* Align dropdown to the edge of the link on mobile */
+    }
+    .section, .subsection {
+        padding: 40px 20px; /* Reduces side padding on mobile */
+    }
 }
+
+
 
 
 
