@@ -160,13 +160,6 @@ body {
     display: block;
 }
 
-/* Adjustments for mobile screens */
-@media (max-width: 600px) {
-    .product-card img {
-        height: 250px;    /* Use a shorter height for narrow mobile cards */
-    }
-}
-
 .product-card h3 {
     margin: 15px 0 15px;
 }
@@ -202,6 +195,11 @@ footer {
 @media (max-width: 600px) {
     .section, .subsection {
         padding: 40px 20px; /* Reduces side padding on mobile */
+    }
+}
+@media (max-width: 600px) {
+    .product-card img {
+        height: 250px;    /* Use a shorter height for narrow mobile cards */
     }
 }
 
