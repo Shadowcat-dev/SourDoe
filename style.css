@@ -149,11 +149,22 @@ body {
 }
 
 .product-card img {
-    width: 100%;          /* Forces image to fill the card width */
-    height: 250px;        /* Set a consistent height for all cards */
-    object-fit: cover;    /* Crops the image slightly to fill the box without stretching */
+    width: 100%;          /* Always fill the width of the card */
+    height: 350px;        /* Set a taller height for desktop to minimize cropping */
+    
+    /* These two are key to managing the cropping */
+    object-fit: cover;    /* Fill the box without stretching */
+    object-position: center; /* Crop equally from top/bottom and left/right */
+
     border-radius: 10px;
-    display: block;       /* Removes tiny bottom gaps */
+    display: block;
+}
+
+/* Adjustments for mobile screens */
+@media (max-width: 600px) {
+    .product-card img {
+        height: 250px;    /* Use a shorter height for narrow mobile cards */
+    }
 }
 
 .product-card h3 {
@@ -193,6 +204,7 @@ footer {
         padding: 40px 20px; /* Reduces side padding on mobile */
     }
 }
+
 
 
 
