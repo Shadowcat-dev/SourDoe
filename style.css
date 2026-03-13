@@ -191,8 +191,6 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
-
-}
    
 /* --- RESPONSIVE ADJUSTMENTS --- */
 @media (max-width: 600px) {
@@ -232,6 +230,7 @@ footer {
         padding: 40px 20px; /* Reduces side padding on mobile */
     }
 }
+
 
 
 
