@@ -188,6 +188,13 @@ footer {
     margin-top: 40px;
 }
 
+@media (max-width: 600px) {
+    .section, .subsection {
+        padding: 40px 20px; /* Reduces side padding on mobile */
+    }
+}
+
+
 
 
 
