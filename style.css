@@ -149,10 +149,11 @@ body {
 }
 
 .product-card img {
-    max-width: 100%;
-    /* This keeps the image from stretching vertically */
-    height: auto;
+    width: 100%;          /* Forces image to fill the card width */
+    height: 250px;        /* Set a consistent height for all cards */
+    object-fit: cover;    /* Crops the image slightly to fill the box without stretching */
     border-radius: 10px;
+    display: block;       /* Removes tiny bottom gaps */
 }
 
 .product-card h3 {
@@ -186,6 +187,7 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
 
 
 
