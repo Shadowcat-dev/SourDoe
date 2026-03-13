@@ -197,7 +197,7 @@ footer {
 /* --- RESPONSIVE ADJUSTMENTS --- */
 @media (max-width: 600px) {
      .product-card img {
-        height: 250px;    /* Use a shorter height for narrow mobile cards */
+        height: 150px;    /* Use a shorter height for narrow mobile cards */
     }
     /* 1. Fix the Navbar */
     .navbar {
@@ -232,6 +232,7 @@ footer {
         padding: 40px 20px; /* Reduces side padding on mobile */
     }
 }
+
 
 
 
