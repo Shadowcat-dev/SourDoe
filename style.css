@@ -229,7 +229,11 @@ footer {
     .section, .subsection {
         padding: 40px 20px; /* Reduces side padding on mobile */
     }
+    .navbar, .textbar {
+    padding: 15px 20px !important;
+    } 
 }
+
 
 
 
