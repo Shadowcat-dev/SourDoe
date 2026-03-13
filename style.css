@@ -150,7 +150,7 @@ body {
 
 .product-card img {
     width: 100%;          /* Always fill the width of the card */
-    height: 750px;        /* Set a taller height for desktop to minimize cropping */
+    height: 500px;        /* Set a taller height for desktop to minimize cropping */
     
     /* These two are key to managing the cropping */
     object-fit: cover;    /* Fill the box without stretching */
@@ -204,6 +204,7 @@ footer {
         padding: 40px 20px; /* Reduces side padding on mobile */
     }
 }
+
 
 
 
