@@ -197,6 +197,19 @@ footer {
      .product-card img {
         height: 150px;    /* Use a shorter height for narrow mobile cards */
     }
+    .products {
+        /* Lowers the minimum size so 3 cards can squeeze into the small screen */
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 10px; /* Reduces gap so they don't get pushed off screen */
+    }
+
+    .product-card {
+        padding: 10px; /* Shrinks internal padding to save space */
+    }
+
+    .product-card h3 {
+        font-size: 0.9rem; /* Smaller text so it fits on one or two lines */
+    }
     /* 1. Fix the Navbar */
     .navbar {
         padding: 15px 20px; /* Reduce side padding so links don't squash */
@@ -238,6 +251,7 @@ footer {
         font-size: 14px;
     }
 }
+
 
 
 
