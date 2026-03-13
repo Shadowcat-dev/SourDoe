@@ -195,7 +195,18 @@ footer {
 /* --- RESPONSIVE ADJUSTMENTS --- */
 @media (max-width: 600px) {
      .product-card img {
-        height: 150px;    /* Use a shorter height for narrow mobile cards */
+        height: 250px;    /* Use a shorter height for narrow mobile cards */
+    }
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers the cards if the screen is slightly wider */
+        gap: 25px; /* Adds a nice gap between each loaf of bread */
+    }
+
+    .product-card {
+        width: 100%;
+        max-width: 350px; /* Prevents cards from getting TOO wide on larger phones */
     }
     /* 1. Fix the Navbar */
     .navbar {
@@ -238,6 +249,7 @@ footer {
         font-size: 14px;
     }
 }
+
 
 
 
