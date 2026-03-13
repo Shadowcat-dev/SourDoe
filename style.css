@@ -206,16 +206,17 @@ footer {
     
     .navbar a {
         margin-left: 10px; /* Bring links closer together */
-        font-size: 0.5rem;  /* Slightly smaller text */
+        font-size: 0.9rem;  /* Slightly smaller text */
     }
 
     /* 2. Fix the Hero & Headers */
     .hero h1 {
-        font-size: 1rem; /* Was 3rem - too big for mobile */
+        font-size: 1.5rem !important;
     }
 
     .subsection h1 {
-        font-size: 1.2rem; /* Was 4rem - this was likely the "huge" looking text */
+        font-size: 1.8rem !important; 
+        line-height: 1.2 !important;
     }
 
     /* 3. Adjust Section Spacing */
@@ -227,12 +228,17 @@ footer {
         left: 0; /* Align dropdown to the edge of the link on mobile */
     }
     .section, .subsection {
-        padding: 40px 20px; /* Reduces side padding on mobile */
+        padding: 20px 15px !important;
+    
     }
     .navbar, .textbar {
     padding: 15px 20px !important;
     } 
+    body {
+        font-size: 14px;
+    }
 }
+
 
 
 
